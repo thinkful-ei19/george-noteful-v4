@@ -12,7 +12,8 @@ const store = (function () {
     currentQuery: {
       searchTerm: '',
     },
-    currentUser: {}
+    authToken: ''  // <<== Add this
+    // currentUser: {} What up with this??? <==
   };
 
 }());
